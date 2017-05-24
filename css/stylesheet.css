@@ -12,12 +12,16 @@ h1 {
     color: #fff;
 }
 
+.wrapper {
+    margin: 1em;    
+}
+
 section {
     max-width: 800px;
-    margin: 0 1em;
-    min-height: 400px;
+    margin: 0 auto 48px;
+    min-height: 425px;
     box-shadow: 0 0 3px #000;
-    padding: 2em;
+    padding: 1em;
     background: #fff;
     display: flex;
     flex-direction: column;
@@ -29,7 +33,7 @@ section {
 }
 
 button { 
-    width: 90%;
+    width: 100%;
     text-align: left;
 }
 
@@ -85,13 +89,23 @@ img {
     margin: 0 auto;
 }
 
-@media (min-width: 850px) {
+span {
+    margin-bottom: 12px;
+    display: inline-block;
+}
+
+@media (min-width: 680px) {
 
     section {
-        margin: 0 auto;
+        padding: 2em;
     }
 
-    button {
-        width: 50%;
+    #start {
+        width: 50%;    
+    }
+
+    #quiz {
+        width: 350px;
+        margin: auto;
     }
 }
